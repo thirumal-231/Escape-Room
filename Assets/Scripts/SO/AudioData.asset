@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1cf4e5fcddc93e42a50a8787aed45a4, type: 3}
+  m_Name: AudioData
+  m_EditorClassIdentifier: 
+  seargentClip: {fileID: 8300000, guid: a2698c34a79d9d1489d37ae573292beb, type: 3}
+  acceptMissionClip: {fileID: 8300000, guid: 722a68d3070578146b602eb365b85a82, type: 3}
+  ambientClip: {fileID: 8300000, guid: e7706fe9465db914e85e5111fccaaa1c, type: 3}
+  radioClip: {fileID: 8300000, guid: 603d978c4edb2964ca4d78a90090f38f, type: 3}
