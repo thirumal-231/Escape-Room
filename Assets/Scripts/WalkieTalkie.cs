@@ -64,8 +64,6 @@ public class WalkieTalkie : MonoBehaviour
             }
         }
         LitCandle( true );
-
-
     }
 
     void LitCandle( bool isLit )
@@ -78,7 +76,6 @@ public class WalkieTalkie : MonoBehaviour
         walkieTalkie.GetComponent<Animator>().Play( "WalkieEmission" );
         talkieAudioSource.PlayOneShot( audios.seargentClip );
         Invoke( "ShowMissionCanvas", 18 );
-
     }
 
     void ShowMissionCanvas()
